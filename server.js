@@ -12,7 +12,7 @@ const HUGGINGFACE_TOKEN='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';
 app.post('/chat', async (req,res)=>{
   const question=req.body.question;
   try{
-    const response=await fetch('https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct',{
+    const response=await fetch('https://chatbot-ai-jet-2-6cw5.onrender.com',{
       method:'POST',
       headers:{
         'Content-Type':'application/json',

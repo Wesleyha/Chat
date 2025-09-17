@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog sobre Racismo Ambiental</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header style="background-image: url('https://i.postimg.cc/R0Brc9td/racismo1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 250px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white;">
+    <div class="menu-btn" id="menuBtn">☰</div>
+    <div class="menu" id="menu">
+      <a href="#" onclick="showSection('posts')">Posts</a>
+      <a href="#" onclick="showSection('documentarios')">Documentários</a>
+      <a href="#" onclick="showSection('projeto')">Nosso Projeto</a>
+    </div>
+  </header>
+
+  <main>
+    <div id="posts" class="section active">
+      <div class="post"><h2>1. O que é racismo ambiental?</h2><p>Racismo ambiental é a prática de expor comunidades racializadas ou economicamente vulneráveis a riscos ambientais maiores, como poluição, falta de saneamento e degradação de terras.</p></div>
+      <!-- Adicione os outros posts aqui, conforme seu site atual -->
+    </div>
+
+    <div id="documentarios" class="section">
+      <div class="post">
+        <h2>Documentários Recomendados</h2>
+        <p>Confira alguns documentários que fortalecem o repertório sobre racismo ambiental:</p>
+        <ul>
+          <li>“Erin Brockovich: Uma Mulher de Talento” (2000)</li>
+          <li>“Wall-E” (2008)</li>
+          <li>“Quanto Vale ou é por Quilo?” (2005)</li>
+          <li>“A Última Floresta” (2021)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="projeto" class="section">
+      <div class="post">
+        <h2>Nosso Projeto</h2>
+        <p><strong>Nosso projeto nasce do desejo de dar voz ao que muitas vezes é silenciado: as ruas invisíveis da cidade. Inspirados pela realidade da Rua Prefeito Newton Nogueira, em pleno centro histórico de Icó–CE, investigamos como a ausência de saneamento básico revela marcas profundas de racismo ambiental e injustiça social. A partir da escuta da comunidade, do diálogo com autores e o desenvolvimento de ações que corroboram com o letramento ambiental crítico em nossa escola(EEMTI Padre José Alves de Macedo e outras escolas municipais e particulares), ações que refletem sobre o direito à cidade. Buscamos transformar a denúncia em conhecimento e o conhecimento em ação. Este espaço é, portanto, um convite para refletir conosco sobre justiça socioambiental, cuidado com o território e a luta por dignidade urbana para todos.</strong></p>
+        <p>Este blog tem como principal função ser um material rico de sugestões e pesquisas para os professores possam trabalhar em sala de aula essa temática ainda invisível nos livros didáticos de Ciências Humanas e Sociais Aplicadas.</p>
+      </div>
+    </div>
+
+    <!-- Chatbot -->
+    <div id="chatbot">
+      <div id="chat-window">
+        <div id="chat-messages"></div>
+        <input id="chat-input" type="text" placeholder="Digite sua pergunta...">
+        <button id="chat-button">Enviar</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

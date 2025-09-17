@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // Coloque seu token Hugging Face aqui
-const HUGGINGFACE_TOKEN='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';
+const HUGGINGFACE_TOKEN='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';
 
 app.post('/chat', async (req,res)=>{
   const question=req.body.question;
